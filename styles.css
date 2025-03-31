@@ -31,29 +31,8 @@ nav {
 nav .logo h1 {
     font-size: 2rem;
     color: #fff;
+    position: center;
 }
-
-nav .menu {
-    list-style: none;
-    display: flex;
-}
-
-nav .menu li {
-    margin-left: 20px;
-}
-
-nav .menu li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 1.1rem;
-    transition: color 0.3s;
-}
-
-nav .menu li a:hover {
-    color: #bbb; /* abu-abu terang saat hover */
-}
-
 /* Hero Section */
 .hero {
     background-color: #333; /* abu-abu gelap */
