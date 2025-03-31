@@ -54,7 +54,7 @@ nav .menu li a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('https://via.placeholder.com/1600x900');
+    background-image: silver;
     background-size: cover;
     background-position: center;
     color: black;
