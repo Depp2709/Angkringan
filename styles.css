@@ -57,7 +57,7 @@ nav .menu li a:hover {
     background-image: url('https://via.placeholder.com/1600x900');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
     text-align: center;
     padding: 100px 0;
 }
