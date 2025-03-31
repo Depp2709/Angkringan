@@ -8,13 +8,13 @@
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #f1f1f1; /* abu-abu terang */
+    color: #333; /* teks hitam */
 }
 
 /* Navbar */
 header {
-    background-color: #333;
+    background-color: #000; /* hitam */
     color: white;
     padding: 10px 0;
 }
@@ -30,6 +30,7 @@ nav {
 
 nav .logo h1 {
     font-size: 2rem;
+    color: #fff;
 }
 
 nav .menu {
@@ -46,18 +47,17 @@ nav .menu li a {
     color: white;
     font-weight: bold;
     font-size: 1.1rem;
+    transition: color 0.3s;
 }
 
 nav .menu li a:hover {
-    color: #ff5733;
+    color: #bbb; /* abu-abu terang saat hover */
 }
 
 /* Hero Section */
 .hero {
-    background-image: silver;
-    background-size: cover;
-    background-position: center;
-    color: black;
+    background-color: #333; /* abu-abu gelap */
+    color: white;
     text-align: center;
     padding: 100px 0;
 }
@@ -74,21 +74,22 @@ nav .menu li a:hover {
 
 .hero .cta-btn {
     text-decoration: none;
-    background-color: #ff5733;
-    color: white;
+    background-color: #fff; /* putih */
+    color: #333; /* teks hitam */
     padding: 15px 30px;
     font-size: 1.2rem;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .hero .cta-btn:hover {
-    background-color: #ff3f00;
+    background-color: #333; /* abu-abu gelap */
+    color: #fff; /* teks putih saat hover */
 }
 
 /* About Section */
 .about {
-    background-color: #fff;
+    background-color: #fff; /* putih */
     padding: 50px 0;
     text-align: center;
 }
@@ -102,11 +103,12 @@ nav .menu li a:hover {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
+    color: #555; /* abu-abu medium */
 }
 
 /* Menu Section */
 .menu {
-    background-color: #fafafa;
+    background-color: #f1f1f1; /* abu-abu terang */
     padding: 50px 0;
 }
 
@@ -114,6 +116,7 @@ nav .menu li a:hover {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;
+    color: #333; /* hitam */
 }
 
 .menu-items {
@@ -132,21 +135,23 @@ nav .menu li a:hover {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    border: 2px solid #ccc; /* abu-abu muda */
 }
 
 .menu-item h3 {
     font-size: 1.5rem;
     margin: 15px 0;
+    color: #333; /* hitam */
 }
 
 .menu-item p {
     font-size: 1rem;
-    color: #666;
+    color: #777; /* abu-abu gelap */
 }
 
 /* Contact Section */
 .contact {
-    background-color: #fff;
+    background-color: #fff; /* putih */
     padding: 50px 0;
     text-align: center;
 }
@@ -154,16 +159,18 @@ nav .menu li a:hover {
 .contact h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #333; /* hitam */
 }
 
 .contact p {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: #555; /* abu-abu medium */
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #000; /* hitam */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -171,4 +178,34 @@ footer {
 
 footer p {
     font-size: 1rem;
+}
+
+/* Media Query untuk Responsif */
+@media (max-width: 768px) {
+    nav .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .menu li {
+        margin-bottom: 10px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
 }
