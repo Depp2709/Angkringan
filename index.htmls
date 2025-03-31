@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angkringan Kita</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Angkringan Kita</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Selamat Datang di Angkringan Kita!</h2>
+            <p>Tempat hangout yang nyaman dengan makanan tradisional khas Indonesia.</p>
+            <a href="#menu" class="cta-btn">Lihat Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Angkringan Kita adalah tempat nongkrong dengan suasana yang hangat, menyajikan berbagai makanan ringan dan minuman khas Indonesia. Cocok untuk berkumpul bersama teman, keluarga, atau pasangan.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Menu Kami</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/200" alt="Nasi Kucing">
+                    <h3>Nasi Kucing</h3>
+                    <p>Nasi kecil dengan berbagai lauk-pauk lezat.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/200" alt="Wedang Jahe">
+                    <h3>Wedang Jahe</h3>
+                    <p>Minuman jahe hangat yang menyegarkan di malam hari.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/200" alt="Sate">
+                    <h3>Sate</h3>
+                    <p>Sate ayam dan sapi dengan bumbu kacang yang lezat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Hubungi kami untuk informasi lebih lanjut atau kunjungi lokasi kami!</p>
+            <p>Email: angkringan@kita.com</p>
+            <p>Alamat: Jl. Raya Angkringan No. 123, Jakarta</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Angkringan Kita | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
